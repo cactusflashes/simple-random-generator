@@ -1,0 +1,302 @@
+body {
+    background-color: #4f5f49;
+    display: flexbox;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: Space Grotesk;
+    font-size: 4vw;
+    color: white;
+    display: flex;
+    font-weight: 100;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-family: Space Grotesk;
+        font-size: 8vw;
+        color: white;
+        display: flex;
+        font-weight: 100;
+    }
+  }
+
+
+
+h2 {
+    font-family: Space Grotesk;
+    font-size: 2vw;
+    color: white;
+    display: flex;
+    font-weight: 400;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    align-self: center;
+    flex-direction: column;
+    width: 75vw;
+    margin: 0 auto;
+    gap: 2vw;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        justify-self: center;
+        align-self: center;
+        flex-direction: column;
+        width: 75vw;
+        margin: 0 auto;
+        margin-top: 10vw;
+        gap: 14vw;
+    }
+  }
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    border: 2px solid white;
+    padding: 0 4vw;
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+    border-radius: 60vw;
+}
+
+@media only screen and (max-width: 600px) {
+    .header-container {
+        display: flex;
+        justify-content: center;
+        border: 2px solid white;
+        padding: 0 4vw;
+        margin-top: -3vw;
+        margin-bottom: 4vw;
+        border-radius: 20vw;
+    }
+  }
+
+@keyframes hover-button {
+    from {opacity: 0;}
+    to {opacity: 100;}
+}
+
+.dice {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-family: Space Grotesk;
+}
+
+.roll-dice {
+    display: flex;
+    justify-content: center;
+    border: 2px solid white;
+    padding: 1vw 6vw;
+    position: relative;
+    border-radius: 20vw;
+    background-color: #4f5f49;
+    color: white;
+    font-family: Space Grotesk;
+    font-size: 4vw;
+    font-weight: 100;
+}
+
+@media only screen and (max-width: 600px) {
+    .roll-dice {
+        display: flex;
+        justify-content: center;
+        border: 2px solid white;
+        padding: 1vw 6vw;
+        position: relative;
+        border-radius: 20vw;
+        background-color: #4f5f49;
+        color: white;
+        font-family: Space Grotesk;
+        font-size: 8vw;
+        font-weight: 100;
+    }
+  }
+
+
+.roll-dice:hover {
+    display: flex;
+    justify-content: center;
+    border: 2px solid white;
+    position: relative;
+    border-radius: 20vw;
+    background-color: white;
+    color: #4f5f49;
+    font-family: Space Grotesk;
+    font-size: 4vw;
+    font-weight: 100;
+    cursor: pointer;
+    animation: hover-button linear .4s;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .roll-dice:hover {
+        display: flex;
+        justify-content: center;
+        border: 2px solid white;
+        position: relative;
+        border-radius: 20vw;
+        background-color: white;
+        color: #4f5f49;
+        font-family: Space Grotesk;
+        font-size: 8vw;
+        font-weight: 100;
+        cursor: pointer;
+        animation: hover-button linear .4s;
+    }
+  }
+
+
+.coin {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-family: Space Grotesk;
+}
+
+.flip-coin {
+    display: flex;
+    justify-content: center;
+    border: 2px solid white;
+    padding: 1vw 6vw;
+    position: relative;
+    border-radius: 20vw;
+    background-color: #4f5f49;
+    color: white;
+    font-family: Space Grotesk;
+    font-size: 4vw;
+    font-weight: 100;
+}
+
+@media only screen and (max-width: 600px) {
+    .flip-coin {
+        display: flex;
+        justify-content: center;
+        border: 2px solid white;
+        padding: 1vw 6vw;
+        position: relative;
+        border-radius: 20vw;
+        background-color: #4f5f49;
+        color: white;
+        font-family: Space Grotesk;
+        font-size: 8vw;
+        font-weight: 100;
+    }
+  }
+
+.flip-coin:hover {
+    display: flex;
+    justify-content: center;
+    border: 2px solid white;
+    position: relative;
+    border-radius: 20vw;
+    background-color: white;
+    color: #4f5f49;
+    font-family: Space Grotesk;
+    font-size: 4vw;
+    font-weight: 100;
+    cursor: pointer;
+    animation: hover-button linear .4s;
+}
+
+@media only screen and (max-width: 600px) {
+    .flip-coin:hover {
+        display: flex;
+        justify-content: center;
+        border: 2px solid white;
+        position: relative;
+        border-radius: 20vw;
+        background-color: white;
+        color: #4f5f49;
+        font-family: Space Grotesk;
+        font-size: 8vw;
+        font-weight: 100;
+        cursor: pointer;
+        animation: hover-button linear .4s;
+    }
+  }
+
+
+.ate-ball {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-family: Space Grotesk;
+}
+
+.shake-ball {
+    display: flex;
+    justify-content: center;
+    border: 2px solid white;
+    padding: 1vw 6vw;
+    position: relative;
+    border-radius: 20vw;
+    background-color: #4f5f49;
+    color: white;
+    font-family: Space Grotesk;
+    font-size: 4vw;
+    font-weight: 100;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .shake-ball {
+        display: flex;
+        justify-content: center;
+        border: 2px solid white;
+        padding: 1vw 6vw;
+        position: relative;
+        border-radius: 20vw;
+        background-color: #4f5f49;
+        color: white;
+        font-family: Space Grotesk;
+        font-size: 8vw;
+        font-weight: 100;
+    }
+  }
+
+.shake-ball:hover {
+    display: flex;
+    justify-content: center;
+    border: 2px solid white;
+    position: relative;
+    border-radius: 20vw;
+    background-color: white;
+    color: #4f5f49;
+    font-family: Space Grotesk;
+    font-size: 4vw;
+    font-weight: 100;
+    cursor: pointer;
+    animation: hover-button linear .4s;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .shake-ball:hover {
+        display: flex;
+        justify-content: center;
+        border: 2px solid white;
+        position: relative;
+        border-radius: 20vw;
+        background-color: white;
+        color: #4f5f49;
+        font-family: Space Grotesk;
+        font-size: 8vw;
+        font-weight: 100;
+        cursor: pointer;
+        animation: hover-button linear .4s;
+    }
+  }
